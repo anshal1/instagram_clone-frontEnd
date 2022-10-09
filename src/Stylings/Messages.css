@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Charis+SIL&family=Gentium+Plus&family=Gulzar&display=swap');
+.message_box{
+    margin: auto;
+    width: 50%;
+    min-height: 90vh;
+    background-color: white;
+    border: 1px solid rgb(214, 214, 214);
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    padding: .5rem;
+}
+.notifications{
+    font-size: 1.3rem;
+    color: rgb(58, 58, 58);
+    margin: 1.2rem 0;
+    /* font-family: 'Gulzar', serif; */
+    word-wrap: break-word;
+}
+.message_username{
+    font-weight: 600;
+    cursor: pointer;
+    /* font-family: 'Gentium Plus', serif; */
+    color: rgb(48, 48, 48);
+}
+.message_username:hover{
+    color: rgb(107, 107, 107);
+}
+.message_date{
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.message_username img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+body{
+    position: relative;
+}
+@media screen and (max-width: 460px) {
+    .message_box{
+        width: 100%;
+        min-height: 90vh;
+        background-color: white;
+        border: 1px solid rgb(214, 214, 214);
+        overflow: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: .5rem;
+    }
+}

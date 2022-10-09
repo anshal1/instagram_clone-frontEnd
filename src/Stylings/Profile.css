@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Arima&family=Charis+SIL&family=Gentium+Plus&display=swap');
+#user_image{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: .1rem;
+    cursor: pointer;
+}
+#for_upload{
+    position: absolute;
+    left: 4px;
+}
+.user_image_container{
+    position: relative;
+}
+.user_image_container span{
+    width: 8rem;
+    position: absolute;
+    z-index: 1;
+    left: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 1rem;
+}
+.main_profile_container{
+    width: 80%;
+    padding: 2rem;
+    margin: auto;
+}
+.user_image_container{
+    width: 1rem;
+}
+
+.profile_page_img{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.post_follow_data{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.post_follow_data p{
+    margin: 0;
+    width: 9rem;
+    font-weight: 700;
+}
+.post_follow_data p span {
+    font-weight: 400;
+}
+.user_info{
+    width: 60%;
+}
+.bio{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#profile_username{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700; 
+}
+.biodata{
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: .2rem;
+    margin: 5px 0px;
+}
+.bio a{
+    text-decoration: none;
+    font-weight: 600;
+}
+#edit{
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+}
+.fa-gear{
+    margin-left: 10px;
+}
+#name_others{
+    font-size: 1.2rem;
+}
+#name_others span{
+    font-size: .8rem;
+}
+#name_others i {
+    font-size: .8rem; 
+}
+
+#other_bookmark{
+    position: static;
+}
+.postandother_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.postandother_btn i{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin: .5rem;
+}
+.postandother_btn i span {
+    font-family: 'Charis SIL', serif;
+}
+.postsandother{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile_page_posts{
+    width: 25rem;
+    height: 27rem;
+    display: block;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: all .3s;
+    border-radius: 3px;
+}
+.profile_page_posts:hover{
+    box-shadow: 4px 4px 20px rgb(85, 85, 85);
+    transform: translateY(2px);
+}
+.saved{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.active{
+    border-bottom: 1px solid black;
+}
+#user_profile_follow{
+    border: none;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+#external_link{
+    color: blue;
+}

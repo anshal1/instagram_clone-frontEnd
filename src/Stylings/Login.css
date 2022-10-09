@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Charis+SIL&family=Gentium+Plus&display=swap');
+
+body {
+  background: #fafafa;
+  min-height: 105vh;
+}
+
+.main_login_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+}
+.upper_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.login_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid rgb(184, 184, 184);
+  width: 22rem;
+  height: 25rem;
+  margin-top: 4rem;
+}
+.image_container {
+  margin-top: 1rem;
+}
+.brandname_login {
+  font-family: "billabong", sans-serif;
+  font-size: 3rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+#login_page_img {
+  transition: all 0.3s;
+}
+#username {
+  background-color: #fafafa;
+  border: 1px solid rgb(184, 184, 184);
+  outline: none;
+  width: 15rem;
+  margin-bottom: 1rem 0px;
+  border-radius: 3px;
+  height: 2rem;
+}
+#password {
+  background-color: #fafafa;
+  border: 1px solid rgb(184, 184, 184);
+  outline: none;
+  width: 15rem;
+  margin: 1rem 0px;
+  border-radius: 3px;
+  height: 2rem;
+}
+#login_btn {
+  width: 15rem;
+  font-weight: 700;
+  height: 2rem;
+  padding: 0px;
+}
+#username::placeholder {
+  font-size: 0.8rem;
+  text-align: justify;
+  font-family: 'Charis SIL', serif
+}
+#password::placeholder {
+  font-size: 0.8rem;
+  text-align: justify;
+  font-family: 'Charis SIL', serif
+}
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: auto;
+  margin-top: 1rem;
+}
+.or hr {
+  display: block;
+  width: 100px;
+  margin: 0px 10px;
+}
+.form_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.login_with {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #385185;
+  cursor: pointer;
+}
+.forgot_pass {
+  font-size: 0.7rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+.to_signup{
+  width: 22rem;
+  height: 4rem;
+  background-color: #ffffff;
+  border: 1px solid rgb(184, 184, 184);
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.no_account{
+  margin: 0;
+}
+.no_account span {
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+}
+.get_app{
+  font-size: .8rem;
+  margin-top: 20px;
+}
+.getapp_link{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.link_img{
+  width: 8rem;
+  height: 3rem;
+}
+@media screen and (max-width: 870px) {
+  .image_container{
+    display: none;
+  }
+}
+/* @media screen and (max-width: 400px) {
+  .login_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    border: 1px solid rgb(184, 184, 184);
+    width: 30vw;
+    height: 25vh;
+    margin-top: 4rem;
+  } 
+} */

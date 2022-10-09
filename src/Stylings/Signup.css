@@ -1,0 +1,123 @@
+.main_signup_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: fit-content;
+  margin-top: 1rem;
+}
+.sign_up_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25rem;
+  height: 40rem;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid rgb(197, 197, 197);
+}
+.message_signup {
+  width: 18rem;
+}
+.signup_with_facebook {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#signup_btn_facebook {
+  width: 18rem;
+  padding: 0;
+  height: 2rem;
+  font-weight: 600;
+}
+.sign_up_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.name {
+  font-family: "billabong", sans-serif;
+  font-size: 3rem;
+}
+.message {
+  font-weight: 600;
+  color: grey;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Charis SIL", serif;
+}
+.or {
+  margin-bottom: 1rem;
+}
+.signup_inputs {
+  background-color: #fafafa;
+  border: 1px solid rgb(197, 197, 197);
+  outline: none;
+  margin-bottom: 10px;
+  width: 18rem;
+  height: 2rem;
+}
+.others_message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 18rem;
+}
+.other_msg_1 {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: grey;
+}
+.other_msg_2 {
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: grey;
+}
+.sign_up_btn{
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sign_up_btn-bottom{
+    width: 18rem;
+    padding: 0;
+    height: 2rem;
+    font-weight: 600;
+}
+::placeholder{
+    font-family: "Charis SIL", serif;
+    font-size: .7rem;   
+    margin: 0;
+    padding: 0;
+}
+.for_another{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.have_account{
+    margin: 1rem 0;
+    width: 25rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border: 1px solid rgb(197, 197, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.account_have{
+    padding: 0;
+    margin: 0;
+}
+.account_have span{
+    font-weight: 600;
+    cursor: pointer;
+}

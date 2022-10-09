@@ -1,0 +1,193 @@
+@import url("//fonts.cdnfonts.com/css/billabong");
+
+body {
+  background: #fafafa;
+  min-height: 105vh;
+}
+a {
+  color: rgb(65, 65, 65);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.none {
+  display: none;
+}
+.main_navbar-container {
+  width: 100%;
+  height: 5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.3s;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+.main_navbar-container_shrink {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.3s;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  margin-bottom: 0.5rem;
+}
+.brand_name {
+  font-family: "billabong", sans-serif;
+  font-size: 2.5rem;
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+}
+#search {
+  background-color: #fafafa;
+  border: none;
+  outline: none;
+}
+.search_box {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 5px;
+  position: relative;
+}
+#search_btn {
+  padding: 5px;
+  border-right: 1px solid rgb(214, 214, 214);
+  cursor: pointer;
+}
+.other_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 12rem;
+  height: fit-content;
+}
+.other_items {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  position: relative;
+}
+#notification_count {
+  position: absolute;
+  top: -12px;
+  right: -14px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+  font-size: 13px;
+  display: none;
+}
+#notification_count_display {
+  position: absolute;
+  top: 30px;
+  right: 5px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px;
+  color: white;
+  font-size: 13px;
+  display: block;
+}
+.users_fromsearch {
+  width: 15rem;
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid rgb(141, 141, 141);
+  position: absolute;
+  bottom: -241px;
+  right: -15px;
+  border-radius: 4px;
+  opacity: 0;
+  display: none;
+  transition: all 0.3s;
+  box-shadow: 0px 2px 20px rgb(182, 182, 182);
+}
+.search_box:hover .users_fromsearch {
+  opacity: 1;
+  height: 15rem;
+  overflow-y: scroll;
+  display: block;
+}
+.search_profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.phonenavbar {
+  display: none;
+}
+.phone_menu_shrinked {
+  display: none;
+}
+.phone_menu {
+  display: none;
+}
+.suggested_box {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .search_box {
+    display: none;
+  }
+  .other_icons {
+    display: none;
+  }
+  .brand_name {
+    font-family: "billabong", sans-serif;
+    font-size: 1.8rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+  }
+  .phonenavbar {
+    display: block;
+  }
+  #block {
+    display: block;
+    font-size: 1.4rem;
+  }
+  #none {
+    display: none;
+  }
+  .phone_menu_shrinked {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 0vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    top: 5rem;
+    transition: all 0.3s;
+  }
+  .phone_menu {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid rgb(185, 185, 185);
+    top: 5rem;
+    transition: all 0.3s;
+  }
+}

@@ -1,0 +1,138 @@
+.main_upload_container {
+  margin: 1rem auto;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#Upload_Image {
+  display: block;
+  width: 90%;
+  height: 30rem;
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 2px;
+  box-shadow: 3px 3px 20px rgb(179, 178, 178);
+  margin: 0;
+  cursor: pointer;
+}
+.file_upload {
+  width: 50%;
+  height: fit-content;
+  padding: 1rem;
+  position: relative;
+}
+.uploadCaption {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.uploadCaption input {
+    width: 24.3rem;
+    margin-bottom: 2rem;
+    border: 1px solid grey;
+    background-color: white;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px grey;
+    height: 3rem;
+}
+.uploadCaption label{
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Gentium Plus', serif;
+}
+.uploadCaption textarea::placeholder{
+    font-size: 1.2rem;
+}
+#tags{
+    border: 1px solid grey;
+    background-color: white;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px grey;
+}
+#File{
+    display: none;
+}
+#Upload_btn{
+    font-size: 4rem;
+    position: absolute;
+    z-index: 1;
+    top: 45%;
+    cursor: pointer;
+    left: 45%;
+}
+#Upload_btn span{
+    font-size: 1rem;
+    font-family: 'Gentium Plus', serif;
+}
+.Upload_post{
+    border: none;
+    background-color: rgb(0, 153, 255);
+    width: 6rem;
+    height: 2rem;
+    font-weight: 600;
+    font-family: 'Gentium Plus', serif;
+    box-shadow: 2px 2px 10px grey;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.story_post{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    height: fit-content;
+    padding: 1rem;
+}
+.story_post p {
+    margin: 0;
+    font-family: 'Gentium Plus', serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.borderd{
+    border-bottom: 2px solid black;
+}
+.main_story_upload-container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_story_upload-container video{
+    width: 30rem;
+    min-height: 35rem;
+    cursor: pointer;
+}
+#video_File{
+    display: none;
+}
+.for_video{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid grey;
+    border-radius: 2px;
+    position: relative;
+}
+#story_upload_btn{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 46%;
+    font-size: 3rem;
+    cursor: pointer;
+}
+#story_upload_btn span {
+    font-size: 1.2rem;
+    font-family: 'Gentium Plus', serif;
+}

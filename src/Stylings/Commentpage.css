@@ -1,0 +1,28 @@
+#comment_page_main_box{
+    background-color: white;
+    width: 50%;
+    min-height: 90vh;
+    border: 1px solid rgb(168, 168, 168);
+    max-height: fit-content;
+    border-spacing: 19px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 200px rgb(212, 212, 212);
+}
+.post_comment{
+    text-align: justify;
+    margin: 1rem;
+    font-family: 'Charis SIL', serif;
+    font-weight: 500;
+}
+.comment_username{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: .3rem;
+}
+.post_comment > span{
+    display: flex;
+    align-items: center;
+    margin-bottom: .3rem;
+    cursor: pointer;
+    font-family: 'Gentium Plus', serif;
+}

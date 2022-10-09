@@ -1,0 +1,20 @@
+.main_loader{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px dotted rgb(255, 255, 255);
+    background-color: transparent;
+    animation: rotate 2s infinite ease;
+}
+.main_container_loader{
+    width: inherit;
+    min-height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@keyframes rotate {
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
